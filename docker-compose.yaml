@@ -20,6 +20,7 @@ services:
       DB_NAME: nest_weather_db
       JWT_ACCESS_SECRET_KEY: dev-access-secret-key
       JWT_REFRESH_SECRET_KEY: dev-refresh-secret-key
+      WEATHER_API_KEY: c151e3317deb4488936182317230211
 
   db:
     image: mysql
