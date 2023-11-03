@@ -33,9 +33,4 @@ export class WeatherController {
       return e
     }
   }
-
-  @Get('all')
-  async all(): Promise<Actions[]> {
-    return await this.weatherService.all();
-  }
 }

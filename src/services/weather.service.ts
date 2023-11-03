@@ -67,8 +67,4 @@ export class WeatherService {
 
     return response.data;
   }
-
-  async all(): Promise<Actions[]> {
-    return await this.actionsRepository.find();
-  }
 }
